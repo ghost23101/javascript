@@ -21,7 +21,7 @@ header{
     margin: 30px 0px;
 }
 
-h1{
+header > h1{
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.345);
 }
 
@@ -32,6 +32,11 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
+}
+
+div{
+    text-align: center;
+    padding: 5px;
 }
 
 footer{
