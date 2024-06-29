@@ -4,21 +4,38 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="estilo/style.css">
-        <title>Modelo de Exercício</title>
+        <title>Verificador de Idade</title>
     </head>
 
-    <body onload="carregar()">
+    <body>
         <header>
-            <h1>Hora do Dia</h1>
+            <h1>Verificador de Idade</h1>
         </header>
 
         <section>
-            <div id="msg">
-                Aqui vai aparecer a mensagem...
+            <div>
+                <p>
+                    Ano de Nascimento:
+                    <input type="number" name="txtano" id="txtano" min="0" size="30" placeholder="insira o ano de Nascimento" autocomplete="on" required>
+                    <label for="txta"></label>
+                </p>
+
+                <p>
+                    Sexo:
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="masc">Masculino</label>
+
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+
+                <p>
+                    <input id="botao" type="button" value="VERIFICAR" onclick="verificar()">
+                </p>
             </div>
 
-            <div id="foto">
-               <img id="imagem" src="img/manha.png" alt="Foto da Manhã">
+            <div id="res">
+               Preencha os dados acima para ver o resultado!
             </div>
         </section>
 

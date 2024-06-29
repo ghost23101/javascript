@@ -35,8 +35,16 @@ section{
 }
 
 div{
-    text-align: center;
     padding: 5px;
+}
+
+input#botao{
+    margin: 10px 0px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #00BFFF;
+    font-size: 0.6em;
+    font-weight: bolder;
 }
 
 footer{
